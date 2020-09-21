@@ -1,6 +1,12 @@
 # Analyse-la-Chouette
 [Accèder à l'analyse](https://lilie65.github.io/Analyse-la-Chouette/) 
 
+# La page originale
+[cliquez sur le lien](https://lilie65.github.io/projet4_original/)
+
+# La page modifié du site
+[cliquez sur le lien](https://lilie65.github.io/projet4_modifi-/)
+
 ## Page principale
 ![image](https://user-images.githubusercontent.com/64195562/93075001-75766c80-f685-11ea-833f-a883a43e2b1b.png)
 ## 1 - Analyse
