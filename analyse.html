@@ -1,181 +1,156 @@
 <!DOCTYPE HTML>
+<html lang="fr">
+<head>
+	<title>Analyse de la Chouette</title>
+	<meta name="description" content="Analyse du site la chouette Agence " />
 
-<html>
-	<head>
-		<title>Analyse de la Chouette</title>
-		<meta name="description" content="Analyse du site la chouette Agence " />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+	<header>
+		<img class="chouette" alt="La chouette" src="image/LaChouette.jpg"/>
+		<h1>Analyse du site: La chouette Agence</h1>
+	</header>
+	<nav> 
+		<h3 class="menu"> menu</h3>
+		<div class="alignement">
+			<ul>
+				<li><a  href="#referencement">Référencement</a></li>
+				<li><a href="#Gtmetrix">Analyser la fluidité</a></li>
+				<li><a href="#title"> Titre</a></li>
+				<li><a href="#divkeyword">Div keywords</a></li>
+			</ul>
+			<ul>
+				<li><a href="#texteimage"> Texte en image</a></li>
+				<li><a href="#renseignement">Renseignement balise alt</a></li>
+				<li><a href="#balisesemantique"> structurer la page</a></li>
+				<li><a href="#formulaire"> Formulaire</a></li>
+			</ul>
+		</div>
+		<h4><a class="accueil" href="index.html"><strong>accueil</strong></a></h4>
+	</nav>
+	<article>
+		<h2 id="Gtmetrix"> Test fluidité du site</h2>
+		<div class="alignement">
+			<img class="taille" alt="Gtmétrix" src="image/test.jpg"/>
+			<ul>
+				<li><strong>images Trop lourde :</strong><br>Les images sont trop lourdes de format "bmp" qui est un format non compressé, il ralenti le vitesse de chargement de la page</li>
+				<li><strong>Amélioré les images :</strong><br> Avec un format plus adapté de type jpeg ou png on rendra la page moins lourde et donc on gagnera en fluidité</li>
+				<li><strong>Mise en cache du navigateur</strong><br>
+				absence de cache, il impose le chargement de toutes les données à chaque fois qu'on visite le site</li>
+				<li> <strong>cache : </strong><br>La mise en cache permettrait le stockage de certaines informations comme par exemple les images qui peuvent demander plus de bande passante. La mise en cache permet de réutiliser efficacement des données précédemment récupérer ou traitées .</li>
+				<li>En minimisant les fichiers css et js on réduirait le temps de lecture</li>
+				<li><strong>bonne pratique</strong><br>
+				Le site présente une mauvaise note car il met beaucoup trop de temps à charger du serveur .Il faut dans un premier temps réduire les images et mettre un cache pour qu'il n'est pas à charger toutes les données à chaque visite.</li>
 
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="css/index.css" />
-	</head>
-	<body>
-		<header>
-			<img class="chouette" alt="La chouette" src="image/LaChouette.jpg"/>
-					<h1>Analyse du site: La chouette Agence</h1>
-		</header>
-		<nav> 
-				<h3 class="menu"> menu</h3>
-				<div class="alignement">
-					<ul>
-						<li><a  href="#referencement">Référencement</a></li>
-						<li><a href="#Gtmetrix">Analyser la fluidité</a></li>
-						<li><a href="#title"> Titre</a></li>
-						<li><a href="#divkeyword">Div keywords</a></li>
-					</ul>
-					<ul>
-						<li><a href="#texteimage"> Texte en image</a></li>
-						<li><a href="#renseignement">Renseignement balise alt</a></li>
-						<li><a href="#balisesemantique"> structurer la page</a></li>
-						<li><a href="#formulaire"> Formulaire</a></li>
-					</ul>
-				</div>
-				<h4><a class="accueil"href="index.html"><strong>accueil</strong></a></h4>
+			</ul>
+		</div>
+	</article>
+	<article>
+		<h2 id="referencement">référencement</h2>
+		<div class="alignement">
+			<img  class="taille" alt="keyword" src="image/keyword1.jpg"/>
+			<ul>
+				<li> <strong>répétition: </strong><br>nom de recherche répétitive :<a href="https://fr.ryte.com/wiki/Bourrage_de_mots-cl%C3%A9s"> source </a><br>le bourrage de mots clés n’a pas d’effet positif pour le SEO</li>
+				<li ><strong>bonne pratique :</strong><br>utiliser des mots clés sans les répéter </li>
+				<li><strong>non adapté au site : </strong><a href="https://www.experts-referencement.com/referencement-naturel/black-hat-seo#contenu-duplique">source</a><br>
+				le trafic  qu’il risque d’attiré ne sera pas de qualité</li>
+				<li ><strong>bonne pratique :</strong><br>utiliser des mots clés qui correspond au site </li>
 
-		</nav>
-		<section> 
-			<article>
-					<h2 id="Gtmetrix"> Test fluidité du site</h2>
-					<div class="alignement">
-						<img class="taille" alt="Gtmétrix" src="image/test.jpg"/>
-						<ul>
-							<h3>Test réalisé avec Gtmétrix</h3>
-							
-							<li><strong>images Trop lourde :</strong></br>Les images sont trop lourdes de format "bmp" qui est un format non compressé, il ralenti le vitesse de chargement de la page</li>
-							<li><strong>Amélioré les images :</strong></br> Avec un format plus adapté de type jpeg ou png on rendra la page moins lourde et donc on gagnera en fluidité</li>
-							<li><strong>Mise en cache du navigateur</strong></br>
-							absence de cache, il impose le chargement de toutes les données à chaque fois qu'on visite le site</li>
-							<li> <strong>cache : </strong></br>La mise en cache permettrait le stockage de certaines informations comme par exemple les images qui peuvent demander plus de bande passante. La mise en cache permet de réutiliser efficacement des données précédemment récupérer ou traitées .</li>
-							<li>En minimisant les fichiers css et js on réduirait le temps de lecture</li>
-							<li><strong>bonne pratique</strong></br>
-							 Le site présente une mauvaise note car il met beaucoup trop de temps à charger du serveur .Il faut dans un premier temps réduire les images et mettre un cache pour qu'il n'est pas à charger toutes les données à chaque visite.</li>
-							
-						</ul>
-					</div>
-				</article>
-				<article>
-					<h2 id="referencement">référencement</h2>
-					<div class="alignement">
-					<img  class="taille"alt="keyword" src="image/keyword1.jpg"/>
-					<ul>
-						<li> <strong>répétition: </strong></br>nom de recherche répétitive :<a href="https://fr.ryte.com/wiki/Bourrage_de_mots-cl%C3%A9s"> source </a></br>La répétition des mots clés était utilisé avant pour aidé les site à remonté dans la file de recherche, depuis cette technique est à proscrire puisque interdite, les moteurs de recherche risque tout simplement de black listé le site, il ne sera donc pas référencé</li>
-						<li><strong>non adapté au site : </strong><a href="https://www.experts-referencement.com/referencement-naturel/black-hat-seo#contenu-duplique">source</a></br>
-						Les mots clés comme Google ou SEO ne sont pas adaptés au site puisqu'en effet celui-ci est un site de web design , les moteurs de recherche comme Google ont besoin de mots clés qui corresponde au site afin de le référencé</li>
-						<li><strong> Mot clé pour paris</strong></br> La société se trouve à Lyon, pour que Google référence le site correctement et que l'utilisateur trouve le site à l'endroit ciblé il faut utilisé des mots clé en corrélation avec la ville </li>
-						<li><strong>Robots.txt et sitemap absent</strong></br>
-						Robots.txt et sitemap sont manquant, ils sont très important dans le référencement et le suivi du site </li>
-						<li ><strong>bonne pratique :</strong></br>Des mots clés plus approprié ainsi que des mots clés local permettra d'avoir un meilleur référencement et d'être mieux positionné dans la file de recherche. Une recherche de mots clés plus adapté avec Kwfinder et Google keyword planner qui permettra de voir la concurrence en fonction des mots cléset ajout des fichiers sitemap ainsi que robots.txt </li>
-					</ul>
-					</div>
-				</article>
-				<article>
-					<h2 id="title"> Titre dans le Head</h2>
-					<div class="alignement">
-						<img  class="taille"src="image/title.jpg"/>
-						<ul>
-							<li><strong>Titre dans le head</strong> </br>
-							le point dans la balise title ne constitue pas un descriptif,cela risque d'être un frein pour que Google puisse positionner le site.</li>
-							<li><strong>bonne pratique</strong> <a href="https://www.igoseo.fr/blog/balise-title/">source</a></br>
-							La balise "title" est se qui apparaît en bleu dans le moteur de recherche , il est donc important en SEO car il est pris en compte par Google dans son positionnement des pages vis à vis des requête. On doit donc mettre un titre en cohérence avec le site .</li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<h2 id="description">Balise meta description</h2>
-					<div class="alignement">
-						<img class="taille" src="image/description.jpg"/>
-						<ul>
-							<li><strong>Absence de la description</strong></br>
-							Aucune description dans la balise meta description</li>
-							<li><strong>bonne pratique</strong> </br>Même si la balise n'a aucun impacte dans le SEO, celle-ci doit être quand même remplie car elle pourra incité l'utilisateur à cliqué sur la page et donc visité le site.</li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<h2 id="divkeyword">Div keywords</h2>
-					<div class="alignement">
-						<img  class="taille"src="image/divKeyword.jpg"/>
-						<ul>
-							<li><strong>Mots clé caché</strong></br>
-							Le div keyword utilise des mots clé caché.</li>
-							<li><strong>bonne pratique</strong></br>
-							Les mots clés caché ont pour but de tromper les algorithmes des moteurs de recherche et ainsi quand on utilise cette technique on espère influencé le référencement mais Google aujourd'hui arrive à repéré se stratagème et black listé le site. C'est une méthode à proscrire, il vaut mieux utilisé un référencement naturel.</li>
-					</div>
-				</article>
-				<article>
-					<h2 id="texteimage">textes en image</h2>
-					<div class="alignement">
-						<img class="taille" src="image/texteimage.jpg"/>
-						<ul>
-							<li><strong>Texte en image</strong></br>
-							Le texte en image est une mauvaise pratique et il alourdi le site </li>
-							<li><strong>bonne pratique</strong></br>
-							Pour une bonne pratique il vaut mieux écrire le texte et le structurer</li>
-				</article>
-				<article>
-					<h2 id="renseignement">renseignement des images</h2>
-					<div class="alignement">
-						<img class="taille" src="image/renseignement.jpg"/>
-						<ul>
-							<li><strong>Les balises</strong>
-							Le balise Alt sont renseignés avec des mots clés caché</li>
-							<li><strong>Bonne pratique</strong></br>
-							la balise Alt est une balise qui doit être renseigné de manière explicite et unique</li>
-						</ul>
-					</div>
-				</article>
-			<article>
-				<h2 id="balisesemantique">balises sémantiques</h2>
-				<div class="alignement">
-					<img class="taille" src="image/balisesemantique.jpg"/>
-					<ul>
-						<li><strong>Absence de balises sémantiques</strong></br>
-						On trouve trop de div et aucune balise sémantiques</li>
-						<li><strong>Bonne pratique</strong></br>
-						Les balises sémantiques définissent le rôle du contenu qu'ils englobent, ils indiquent au moteur de recherche quelle partie est l'en-tête ,laquelle représente le footer et laquelle contient les éléments de navigations.Plutôt que d'utilisé uniquement des div et permettre aux robots de mieux comprendre les informations contenues dans la page  on doit structurer la page avec des balises sémantiques de type footer, section,article,nav etc...</li>
-					</ul>
-				</div>
-			</article>
+				<li><strong> Mot clé pour paris</strong><br> le site sera référencer dans paris plutôt que Lyon .</li>
+				<li ><strong>bonne pratique :</strong><br>pour un bon référencement local utiliser la ville du commerce(Lyon)</li>
+				<li><strong>Robots.txt et sitemap absent</strong><br>
+				Manque du fichier robot.txt pour configurer se qu’on souhaite afficher ou qu’on ne souhaite pas afficher. Les robots de moteus de recherche ne pourront pas identifier les pages que l’ont souhaite indexer sans sidemaps</li>
+				<li ><strong>bonne pratique :</strong><br>Des mots clés plus approprié ainsi que des mots clés local permettra d'avoir un meilleur référencement et d'être mieux positionné dans la file de recherche. Une recherche de mots clés plus adapté avec Kwfinder et Google keyword planner qui permettra de voir la concurrence en fonction des mots cléset ajout des fichiers sitemap ainsi que robots.txt </li>
+			</ul>
+		</div>
+	</article>
+	<article>
+		<h2 id="title"> Titre dans le Head</h2>
+		<div class="alignement">
+			<img  class="taille" alt="title" src="image/title.jpg"/>
+			<ul>
+				<li><strong>Titre dans le head</strong> <br>
+				En l’absence de titre cohérent de la balise title,  google ne pourra pas référencer correctement le site et utiliser la balise en lien hypertexte </li>
+				<li><strong>bonne pratique</strong> <a href="https://www.igoseo.fr/blog/balise-title/">source</a><br>
+				google accorde beaucoup de poids aux mots de cette balise, elle doit être renseigné.</li>
+			</ul>
+		</div>
+	</article>
+	<article>
+		<h2 id="description">Balise meta description</h2>
+		<div class="alignement">
+			<img class="taille" alt="description" src="image/description.jpg"/>
+			<ul>
+				<li><strong>Absence de la description</strong><br>
+				Si la description est vide se qui se trouve sous le titre sera vide dans les moteurs de recherche</li>
+				<li><strong>bonne pratique</strong> <br>Mettre un descriptif dans cette balise permettra d’augmenter le taux de clics et d’avoir un descriptif du site sous le titre dans les moteurs de recherche</li>
+			</ul>
+		</div>
+	</article>
+	<article>
+		<h2 id="divkeyword">Div keywords</h2>
+		<div class="alignement">
+			<img  class="taille" alt="div" src="image/divKeyword.jpg"/>
+			<ul>
+				<li><strong>Mots clé caché</strong><br>
+				L’utilisation de mots clés caché mène directement aux sanctions et souvent vers la liste noirs des moteurs de recherche</li>
+				<li><strong>bonne pratique</strong><br>
+				le supprimé et utilisé plutôt les mots clés dans l’article pour un référencement naturel</li>
+			</ul>
+		</div>
+	</article>
+	<article>
+		<h2 id="texteimage">textes en image</h2>
+		<div class="alignement">
+			<img class="taille" alt="textimage" src="image/texteimage.jpg"/>
+			<ul>
+				<li><strong>Texte en image</strong><br>
+				Un texte est moins lourd qu’une image et va donc améliorer la vitesse de chargement</li>
+				<li><strong>bonne pratique</strong><br>
+				Supprimé l’image et écrire directement le texte dans un blockote ou un h2</li>
+			</ul>
+		</div>
+	</article>
+	<article>
+		<h2 id="renseignement">renseignement des images</h2>
+		<div class="alignement">
+			<img class="taille" alt="renseignement" src="image/renseignement.jpg"/>
+			<ul>
+				<li><strong>Les balises</strong>
+				les balises alt des images sont renseignés par un bourrage de  mots clé caché pour essayer de monter le site en référencement , se qui est interdit et risque de poser problème avec les moteurs de recherche</li>
+				<li><strong>Bonne pratique</strong><br>
+				Faire une description de l’image clair et précise </li>
+			</ul>
+		</div>
+	</article>
+	<article>
+		<h2 id="balisesemantique">balises sémantiques</h2>
+		<div class="alignement">
+			<img class="taille" alt="balisesemantique" src="image/balisesemantique.jpg"/>
+			<ul>
+				<li><strong>Absence de balises sémantiques</strong><br>
+				En l'absence de balises sémantiques les moteurs de recherche vont avoir plus de mal à interpréter le contenu sans balises structurel</li>
+				<li><strong>Bonne pratique</strong><br>
+				l’uilisation des balises permettra de structurer la page html et être mieux interpréter</li>
+			</ul>
+		</div>
+	</article>
 
-			<article>
-				<h2 id="formulaire">Formulaire</h2>
-				<div class="alignement">
-					<img class="taille" src="image/formulaire.jpg"/>
-					<ul>
-						<li><strong>formulaire non structurer</strong></br>
-							Le formulaire n'est pas structurer</li>
-							<li><strong>balise label</strong></br>
-							La fin de la balise label n'est pas mis au bon endroit</li>
-							<li><strong>Bonne pratique</strong></br>
-							La fin de la balise label doit se trouver à la fin de la balise input.</li>
-						</ul>
-				</div>
-			</article>
+	<article>
+		<h2 id="formulaire">Formulaire</h2>
+		<div class="alignement">
+			<img class="taille" alt="formulaire" src="image/formulaire.jpg"/>
+			<ul>
+				<li><strong>balise label</strong><br>
+				ajouter la valeur de l’identifiant avec un for dans le label</li>
+				<li><strong>Bonne pratique</strong><br>
+				La fin de la balise label doit se trouver à la fin de la balise input.</li>
+			</ul>
+		</div>
+	</article>
 
-		</section>
-			<footer>
-				<h2>Liste des erreurs non exhaustive</h2>
-				<article class="border">
-					<h4>Vitesse du téléchargement du site</h4>
-					<ol class="couleur1">
-						<li>Changer le format de certaines images vers des formats plus compressible (.bmp=> .jpg)</li>
-						<li>Compresser les images avec un logiciel</li>
-						<li>Redimensionner les images à la taille ou elles vont s'afficher (gain de temps pour le navigateur)</li>
-						<li>Utiliser le cache navigateur pour le chargement plus rapide pour les prochaines visites</li>
-						<li>Réduire le temps de lecture du fichier css et js</li>
-					</ol>
-				</article>
-				<article class="border">
-					<h4>Réferencement</h4>
-					<ol class="couleur1">
-						<li>Absence de fichiers sitemap et robots.txt</li>
-						<li>Balise du code non optimisé(que des div)</li>
-						<li>Fin de la balise label afficher au mauvais endroit</li>
-						<li>la balise alt des images n'est pas renseigner de manière explicite</li>
-						<li>Balise meta description vide</li>
-						<li>le point dans la balise title ne constitue pas un descriptif</li>
-						<li>Supprimer les mots clé caché et utilisé un référencement naturel</li>
-					</ol>
-				</article>
-	</footer>
-	</body>
+</body>
+</html>
